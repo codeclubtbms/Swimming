@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" style="padding:0; margin:0; height: 100%;">
 <head>
 	
 <title>About Swimming</title>
@@ -9,29 +9,37 @@
 <meta name="author" content="Mohammad Shahdad">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.bsPhotoGallery.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js" charset="utf-8"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.bsPhotoGallery.js"></script>
     
 </head>
 <body id="about-page" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="about-page-main-container">
+
 <div id="header">
 </div>
 <!-- Container (About Swimming Section) -->
 <div id="about" class="container text-center">
-  <h3>About Swimming</h3>
+  <h3 class="page-title">About Swimming</h3>
   <p>Swimming is an individual or team sport that involves using arms and legs to move the body through water. Typically, the sport takes place in pools or in open-water (e.g., in a sea or lake). Competitive swimming is one of the most popular Olympic sports, with events in butterfly, backstroke, breaststroke, freestyle, and individual medley. In addition to these individual events, swimmers also take part in relays. Swimming each stroke requires specific techniques, and in competition, there are specific regulations concerning the acceptable form for different strokes. There are also rules put in place to regulate what types of swimsuits are allowed at competitions. Although it is possible for competitive swimmers to incur several injuries from the sport, there are also multiple health benefits associated with the sport.</p>
 </div>
-<div id="footer">
+<div id="footer-about">
+</div>
+
 </div>
 
 <script type="text/javascript">
   $(document).ready(function(){
     $("#header").load("header.html #nav2");
-    $("#footer").load("footer.html");
+    $("#footer-about").load("footer.html");
   });      
 </script>
 

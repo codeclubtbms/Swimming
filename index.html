@@ -9,12 +9,23 @@
 <meta name="author" content="Mohammad Shahdad">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.bsPhotoGallery.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js" charset="utf-8"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.bsPhotoGallery.js"></script>
+  <script>
+    $(document).ready(function(){
+  $('ul.first').bsPhotoGallery({
+    "classes" : "col-sm-3",
+    "hasModal" : true
+  });
+});
+  </script>
     
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -80,7 +91,52 @@
 <div id="pools-container">
 </div>
 
-<div id="footer">
+<div id="biscoe-container">
+</div>
+
+<!-- Container (Gallery) -->
+<div id="gallery">
+  <div class="container gallery-padding">
+
+    <ul class="row first">
+            <li class="gallery-list">
+                <img alt="Tyndale Biscoe School Swimming Pool."  src="assets/media/img1.jpg">
+                <div class="caption-thumbnail">Tyndale Biscoe School Swimming Pool.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="A student resting before coming out of the lake after completing Dal Re-Cross."  src="assets/media/img2.jpg">
+                <div class="caption-thumbnail">Dal Swims.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="Students exercising before going into the lake for the annual Dal Swims."  src="assets/media/img3.jpg">
+                <div class="caption-thumbnail">Students exercising.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="Boats in line escorting the swimmers throughout the lake that contain biscuits and juice to feed the swimmers or pull those out who can't continue or are unable to complete the swim."  src="assets/media/img4.jpg">
+                <div class="caption-thumbnail">Boats in line with the swimmers.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="A student swimming in the lake for the annual Dal swims." src="assets/media/img5.jpg">
+                <div class="caption-thumbnail">A student swimming in the lake for the annual Dal swims.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="Inter-House Water Polo Matches."  src="assets/media/img6.jpg">
+                 <div class="caption-thumbnail">Inter-House Water Polo Matches.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="Winners of the Inter-House Water Polo Matches."  src="assets/media/img7.jpg">
+                <div class="caption-thumbnail">Winners of the Inter-House Water Polo Matches.</div>
+            </li>
+            <li class="gallery-list">
+                <img alt="The officials for the Inter-House Water Polo Matches."  src="assets/media/img8.jpg">
+                <div class="caption-thumbnail">The officials for the Inter-House Water Polo Matches.</div>
+            </li>
+    </ul>
+  
+  </div>
+</div>
+
+<div id="footer-index">
 </div>
 
 <script type="text/javascript">
@@ -90,7 +146,8 @@
     $("#divevid-container").load("divevid.html");
     $("#health-container").load("health.html #health");
     $("#pools-container").load("pools.html #pools");
-    $("#footer").load("footer.html");
+    $("#biscoe-container").load("biscoe.html #biscoe");
+    $("#footer-index").load("footer.html");
   });      
 </script>
 

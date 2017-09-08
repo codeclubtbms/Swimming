@@ -14,16 +14,17 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js" charset="utf-8"></script>
   <script src="assets/js/bootstrap.min.js"></script>
     
 </head>
-<body id="pools" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="pools-page" data-spy="scroll" data-target=".navbar" data-offset="50">
 <div id="header">
 </div>
 <!-- Container (Pools in Kashmir Section) -->
 <div id="pools" class="bg-1">
   <div class="container">
-    <h3 class="text-center">Pools in Kashmir</h3>
+    <h3 class="text-center page-title">Pools in Kashmir</h3>
 
     <div class="row text-center">
       <div class="col-sm-4">
@@ -89,11 +90,6 @@
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZlB9wcX4o-B6Dk2u4Q0DN84M94T3CpnY&q=Royal+Springs+Golf+Course,Srinagar+India" allowfullscreen>
   	       </iframe>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-        </div>
       </div>
     </div>
   </div>
@@ -115,11 +111,6 @@
               frameborder="0" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZlB9wcX4o-B6Dk2u4Q0DN84M94T3CpnY&q=The+Lalit+Grand+Palace,Srinagar+India" allowfullscreen>
   	       </iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
         </div>
       </div>
     </div>
@@ -143,11 +134,6 @@
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZlB9wcX4o-B6Dk2u4Q0DN84M94T3CpnY&q=Hotel+Grand+Mumtaz,Srinagar+India" allowfullscreen>
   	       </iframe>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-        </div>
       </div>
     </div>
   </div> 
@@ -169,11 +155,6 @@
               frameborder="0" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZlB9wcX4o-B6Dk2u4Q0DN84M94T3CpnY&q=Hotel+Rose+Petal,Srinagar+India" allowfullscreen>
   	       </iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
         </div>
       </div>
     </div>
@@ -197,11 +178,6 @@
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZlB9wcX4o-B6Dk2u4Q0DN84M94T3CpnY&q=Welcome+Hotel,Srinagar+India" allowfullscreen>
   	       </iframe>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-        </div>
       </div>
     </div>
   </div> 
@@ -224,24 +200,19 @@
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZlB9wcX4o-B6Dk2u4Q0DN84M94T3CpnY&q=Khyber+Resorts,Srinagar+India" allowfullscreen>
   	       </iframe>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-        </div>
       </div>
     </div>
   </div> 
   
 </div>
 
-<div id="footer">
+<div id="footer-pools">
 </div>
 
 <script type="text/javascript">
   $(document).ready(function(){
     $("#header").load("header.html #nav2");
-    $("#footer").load("footer.html");
+    $("#footer-pools").load("footer.html");
   });      
 </script>
 

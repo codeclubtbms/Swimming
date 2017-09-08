@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" style="padding:0; margin:0; height: 100%;">
 <head>
 	
 <title>Health Benefits</title>
@@ -9,32 +9,40 @@
 <meta name="author" content="Mohammad Shahdad">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.bsPhotoGallery.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js" charset="utf-8"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.bsPhotoGallery.js"></script>
 
 
 </head>
-<body id="health" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="health-page" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="health-page-main-container">
+
 <div id="header">
 </div>
 <!-- Container (Health Benefits Section) -->
 <div id="health" class="container text-center">
-  <h3>Health Benefits</h3>
-  <p>Swimming is a healthy workout that can be done for a lifetime. It is a low-impact activity that has several mental and bodily health benefits, that is a recreational motion for everyone. Swimming can provide a low-impact workout. Swimming builds endurance, muscle strength, and cardiovascular fitness.
+  <h3 class="page-title">Health Benefits</h3>
+  <p>Swimming is a healthy workout that can be done for a lifetime. It is a low-impact activity that has several mental and bodily health benefits, that is a recreational motion for everyone. Swimming can provide a low-impact workout. Swimming builds endurance, muscle strength, and cardiovascular fitness.</p>
 <br>
-The US Census Bureau reports that two and a half hours per week of aerobic physical activity such as swimming can decrease the risk of chronic illnesses. Along with this, swimming is linked to better cognitive function, lower risk of type 2 diabetes, lower risk of high blood pressure, and lower risk of stroke. People are typically able to exercise longer in water than on land without increased effort, and minimal joint or muscle pain.</p>
+<p>The US Census Bureau reports that two and a half hours per week of aerobic physical activity such as swimming can decrease the risk of chronic illnesses. Along with this, swimming is linked to better cognitive function, lower risk of type 2 diabetes, lower risk of high blood pressure, and lower risk of stroke. People are typically able to exercise longer in water than on land without increased effort, and minimal joint or muscle pain.</p>
 </div>
-<div id="footer">
+<div id="footer-health">
+</div>
+
 </div>
 
 <script type="text/javascript">
   $(document).ready(function(){
     $("#header").load("header.html #nav2");
-    $("#footer").load("footer.html");
+    $("#footer-health").load("footer.html");
   });      
 </script>
 
