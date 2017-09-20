@@ -11,6 +11,11 @@ h3, h4 {
 .container {
     padding: 80px 120px;
 }
+@media (max-width: 650px) {
+    .container {
+        padding: 80px 40px;
+    }
+}
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin: auto;
